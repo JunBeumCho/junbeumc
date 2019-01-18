@@ -166,7 +166,7 @@ class detail_officetelTest(unittest.TestCase):
 
                     dt = datetime.datetime.now().hour
 
-                    self.wait.until(EC.visibility_of_element_located((By.ID, "phone"))).send_keys("01026439212")
+                    self.wait.until(EC.visibility_of_element_located((By.ID, "phone"))).send_keys("010000020003")
 
                     self.wait.until(EC.visibility_of_element_located((By.ID, "comment"))).send_keys(u"웹QA 자동화 테스트입니다")
 
