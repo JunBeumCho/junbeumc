@@ -173,7 +173,7 @@ class detail_oneroomTest(unittest.TestCase):
 
                     dt = datetime.datetime.now().hour
 
-                    self.wait.until(EC.visibility_of_element_located((By.ID, "phone"))).send_keys("01000000000")
+                    self.wait.until(EC.visibility_of_element_located((By.ID, "phone"))).send_keys("01095789906")
 
                     self.wait.until(EC.visibility_of_element_located((By.ID, "comment"))).send_keys(u"웹QA 자동화 테스트")
 
