@@ -245,7 +245,7 @@ class detail_oneroomTest(unittest.TestCase):
 
                 if (dt2 > 22 or dt2 < 8):
 
-                    self.wait.until(EC.visibility_of_element_located((By.ID, "phone3"))).send_keys("01026439212")
+                    self.wait.until(EC.visibility_of_element_located((By.ID, "phone3"))).send_keys("01095789906")
 
                     self.wait.until(EC.visibility_of_element_located((By.ID, "comment3"))).send_keys(u"웹QA 자동화 테스트")
 
